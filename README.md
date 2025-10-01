@@ -11,31 +11,31 @@ This guide focuses on **implementation details, specific tool names (Jenkins/AWS
 
 ## 🔹 Table of Contents
 
-1. [Core Principles & Tooling (Job Match) 🛠️](#1️⃣-core-principles--tooling-job-match-🛠️)
-    * [1.1 Shift-Left Security Philosophy ➡️](#11-shift-left-security-philosophy-➡️)
-    * [1.2 Key Security Tools (SAST/DAST/SCA) 🔎](#12-key-security-tools-sastdastsca-🔎)
+1. [Core Principles & Tooling (Job Match) 🛠️](#1-core-principles-tooling)
+    * [1.1 Shift-Left Security Philosophy ➡️](#11-shift-left-security-philosophy)
+    * [1.2 Key Security Tools (SAST/DAST/SCA) 🔎](#12-key-security-tools)
 
-2. [CI/CD & Jenkins Automation ⚙️](#2️⃣-cicd--jenkins-automation-⚙️)
-    * [2.1 Jenkins Pipeline Security Gates 📊](#21-jenkins-pipeline-security-gates-📊)
-    * [2.2 Secrets & Credential Management 🔑](#22-secrets--credential-management-🔑)
+2. [CI/CD & Jenkins Automation ⚙️](#2-cicd-jenkins-automation)
+    * [2.1 Jenkins Pipeline Security Gates 📊](#21-jenkins-pipeline-security-gates)
+    * [2.2 Secrets & Credential Management 🔑](#22-secrets-credential-management)
 
-3. [Infrastructure as Code (IaC) & Provisioning 🏗️](#3️⃣-infrastructure-as-code-iac--provisioning-🏗️)
-    * [3.1 IaC Scans & Best Practices ✅](#31-iac-scans--best-practices-✅)
-    * [3.2 VM Provisioning (Automation Focus) 🖥️](#32-vm-provisioning-automation-focus-🖥️)
+3. [Infrastructure as Code (IaC) & Provisioning 🏗️](#3-iac-provisioning)
+    * [3.1 IaC Scans & Best Practices ✅](#31-iac-scans-best-practices)
+    * [3.2 VM Provisioning (Automation Focus) 🖥️](#32-vm-provisioning)
 
-4. [Containers & Kubernetes Security 🐳](#4️⃣-containers--kubernetes-security-🐳)
-    * [4.1 Container Hardening & Runtime Config ⚙️](#41-container-hardening--runtime-config-⚙️)
-    * [4.2 K8s Security: RBAC, Policies & Admissions 🛑](#42-k8s-security-rbac-policies--admissions-🛑)
+4. [Containers & Kubernetes Security 🐳](#4-containers-kubernetes-security)
+    * [4.1 Container Hardening & Runtime Config ⚙️](#41-container-hardening)
+    * [4.2 K8s Security: RBAC, Policies & Admissions 🛑](#42-k8s-security)
 
-5. [AWS Cloud Security & Architecture (Matthias Match) ☁️](#5️⃣-aws-cloud-security--architecture-matthias-match-☁️)
-    * [5.1 Shared Responsibility & IAM 🤝](#51-shared-responsibility--iam-🤝)
-    * [5.2 Storage, Networking & Logging 💾](#52-storage-networking--logging-💾)
+5. [AWS Cloud Security & Architecture (Matthias Match) ☁️](#5-aws-cloud-security)
+    * [5.1 Shared Responsibility & IAM 🤝](#51-shared-responsibility-iam)
+    * [5.2 Storage, Networking & Logging 💾](#52-storage-networking-logging)
 
-6. [Communication & Behavioral Tips (Training/Documentation) 🧠](#6️⃣-communication--behavioral-tips-trainingdocumentation-🧠)
+6. [Communication & Behavioral Tips (Training/Documentation) 🧠](#6-communication-behavioral-tips)
 
-7. [Project Experience Examples (STAR Format) 🛠️](#7️⃣-project-experience-examples-star-format-🛠️)
+7. [Project Experience Examples (STAR Format) 🛠️](#7-project-experience-examples)
 
-8. [Deep Dive Technical Concepts (Gotchas) 💡](#8️⃣-deep-dive-technical-concepts-gotchas-💡)
+8. [Deep Dive Technical Concepts (Gotchas) 💡](#8-deep-dive-technical-concepts)
 
 ---
 
